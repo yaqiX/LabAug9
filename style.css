@@ -1,0 +1,98 @@
+/* style.css */
+
+body {
+    margin: 0;
+    background-color: lightyellow;
+    font-family: Monospace;
+}
+
+.container {
+    margin: 0 40px;
+}
+
+h1 {
+    color: black;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.navigation {
+    background-color: red;
+    text-align: center;
+    overflow: hidden;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation li {
+    flex: 1;
+}
+
+.navigation a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 0;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    background-color: wheat;
+    color: black;
+}
+
+
+.content {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.image {
+    flex: 1;
+    padding-right: 10px;
+    
+}
+
+.introduction {
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: larger;
+}
+
+
+.service {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.imgContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    font-size: 30px;
+    justify-content: space-around;
+}
+
+.imgContainer > div {
+    outline-color: red;
+    outline-width: 5px;;
+    outline-style: solid;
+    text-align: center;
+    padding: 20px;
+    color: red;
+}
