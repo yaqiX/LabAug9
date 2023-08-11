@@ -6,6 +6,10 @@ body {
     font-family: Monospace;
 }
 
+em {
+    color: red;
+}
+
 .container {
     margin: 0 40px;
 }
@@ -63,21 +67,21 @@ h3 {
 .image {
     flex: 1;
     padding-right: 10px;
-    
+    max-width: 350px;
 }
-
-.introduction {
-    flex: 1;
-    flex-direction: column;
-    justify-content: space-around;
-    font-size: larger;
-}
-
 
 .service {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+.introduction {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: larger;
 }
 
 .imgContainer {
@@ -95,4 +99,34 @@ h3 {
     text-align: center;
     padding: 20px;
     color: red;
+}
+
+label {
+    margin-left: 5px;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  
+input[type=submit] {
+    width: 100%;
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    font-weight: bolder;
+    font-size: large;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: darkred
 }
